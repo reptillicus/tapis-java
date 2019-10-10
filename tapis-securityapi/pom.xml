@@ -2,12 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>edu.utexas.tacc</groupId>
+		<groupId>edu.utexas.tacc.tapis</groupId>
 		<artifactId>tapis</artifactId>
-		<version>0.0.3-SNAPSHOT</version>
+		<version>${revision}</version>
 	</parent>
 	
-	<groupId>edu.utexas.tacc.tapis</groupId>
 	<artifactId>tapis-securityapi</artifactId>
 	<packaging>war</packaging>
 	
@@ -49,17 +48,17 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>tapis-sharedapi</artifactId>
-			<version>${project.version}</version>
+			<version>${revision}</version>
 		</dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>tapis-shareddb</artifactId>
-            <version>${project.version}</version>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>tapis-securitylib</artifactId>
-            <version>${project.version}</version>
+            <version>${revision}</version>
         </dependency>
 	</dependencies>
 
