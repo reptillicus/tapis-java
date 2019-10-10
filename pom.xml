@@ -3,7 +3,7 @@
 
     <groupId>edu.utexas.tacc</groupId>
     <artifactId>tapis</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>TACC API Parent POM</name>
@@ -97,7 +97,7 @@
     <scm>
         <connection>scm:git:https://github.com/TACC-Cloud/tapis-services.git</connection>
         <url>https://github.com/TACC-Cloud/tapis-services</url>
-        <tag>tapis-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- Document what each extra repository is used for  -->
