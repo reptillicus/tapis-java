@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.utexas.tacc</groupId>
 	<artifactId>tapis</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>TACC API Parent POM</name>
@@ -98,7 +97,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/TACC-Cloud/tapis-services.git</connection>
 		<url>https://github.com/TACC-Cloud/tapis-services</url>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 
     <!-- Document what each extra repository is used for  -->
 	<repositories>
